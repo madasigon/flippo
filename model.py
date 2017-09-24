@@ -90,4 +90,4 @@ class PythonFlip:  # osztaly, ami egy Python dict-et hasznal a cel maegvalositas
         return ['head','tails'][self.result_]
 
 
-Flip = PythonFlip # PythonFlip: python dict, RedisFlip: Redis adatbazis
+Flip = PythonFlip # Itt lehet tarolhasi modot valasztani! PythonFlip: python dict, RedisFlip: Redis adatbazis
