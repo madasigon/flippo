@@ -24,3 +24,7 @@ Ez a két feltétel megakadályozza azt, hogy a kijelölt fél lássa a sorsolá
 A sorsolások(Flip-ek) eltárolására két opctió van, az egyik, hogy egy Python változóban tároljuk(PythonFlip, ez elveszik a program leállása után!), illetve a Redis adatbázis használata(RedisFlip). A választásra a **models.py** fájlban a "Flip" változó értékadásánál van lehetőség(utolsó sor).
 
 Ha a **Redis opció** van kiválasztva, akkor a **flippo.py** megfelelő sorát át kell írni a használt Redis adatbázis URL-jére.
+
+### Fejlesztési lehetőségek
+ - Bejelentkezési lehetőség (pl. Google felhasználóval), ezáltal a sorsolások követhetőségének javítása. Ezesetben akárhány ember részt vehet egy sorsolásban és senki sem állíthatja azt, ő valamiért nem látja az eredényt.
+ - Kinézet, felhasználói felület javítása. A projekt egyelőre csak az alapvető funkcionalitás demonstrációja.
