@@ -14,7 +14,7 @@ Ez a két feltétel megakadályozza azt, hogy a kijelölt fél lássa a sorsolá
 
 ### Telepítés és futtatás
  1. Töltsd le a repository-t, pl: `git clone https://github.com/madasigon/flippo`
- 2. Menj be a reporitory flippo mappájába, pl: `cd <ahova_letöltötted>/flippo/flippo`
+ 2. Menj be a reporitory mappájába, pl: `cd <ahova_letöltötted>/flippo`
  3. Szükség esetén konfiguráld.
  3. Telepítsd a szükséges Python modulokat: `python -m pip install -r requirements.txt`
  5. Futtasd: `python run.py`
