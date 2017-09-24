@@ -9,10 +9,7 @@ def random_word(length):
     return ''.join(random.choice(letters) for i in range(length))
 
 
-
-
-
-class RedisFlip():
+class RedisFlip:  # osztaly a Redis adatbazis hasznalatahoz
     inventory_id = 'flips_all'
 
     def __init__(self, code):
@@ -53,7 +50,7 @@ class RedisFlip():
         return ['head','tails'][int(redis_store.get(self.result_id))]
 
 
-class PythonFlip():
+class PythonFlip:  # osztaly, ami egy Python dict-et hasznal a cel maegvalositasahoz
     all = dict()
 
     def __init__(self, code, size):
@@ -91,5 +88,6 @@ class PythonFlip():
 
     def result(self):
         return ['head','tails'][self.result_]
+
 
 Flip = PythonFlip # PythonFlip: python dict, RedisFlip: Redis adatbazis
