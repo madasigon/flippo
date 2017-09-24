@@ -26,5 +26,5 @@ A sorsolások(Flip-ek) eltárolására két opctió van, az egyik, hogy egy Pyth
 Ha a **Redis opció** van kiválasztva, akkor a **flippo.py** megfelelő sorát át kell írni a használt Redis adatbázis URL-jére.
 
 ### Fejlesztési lehetőségek
- - Bejelentkezési lehetőség (pl. Google felhasználóval), ezáltal a sorsolások követhetőségének javítása. Ezesetben akárhány ember részt vehet egy sorsolásban és senki sem állíthatja azt, ő valamiért nem látja az eredényt.
+ - Bejelentkezési lehetőség (pl. Google felhasználóval), ezáltal a sorsolások követhetőségének javítása. Ezesetben akárhány ember részt vehet egy sorsolásban és senki sem állíthatja azt, hogy ő valamiért nem látja az eredényt.
  - Kinézet, felhasználói felület javítása. A projekt egyelőre csak az alapvető funkcionalitás demonstrációja.
