@@ -10,7 +10,7 @@ Ez a két feltétel megakadályozza azt, hogy a kijelölt fél lássa a sorsolá
 
 ### Követelmények a telepítéshez
  - Python 2 vagy Python 3: https://www.python.org/.
- - Redis adatbázis, ha az van tárolónak választva: https://redis.io.
+ - Redis adatbázis, de **csak** ha az van tárolónak választva: https://redis.io.
 
 ### Telepítés és futtatás
  1. Töltsd le a repository-t, pl: `git clone https://github.com/madasigon/flippo`
