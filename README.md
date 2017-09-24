@@ -1,6 +1,5 @@
 # flippo - Dobjatok fel egy érmét online!
 Tegyük fel, hogy valakivel beszélgetsz **online**, és valamiről nem tudtok megegyezni, ezért feldobnátok egy pénzérmét.
-
 A lehetőségeid:
  - Egyikőtök feldob egy érmét és megírja az eredményt: a kijelölt azt füllent, amit akar.
  - A **flippo** segítségével a kijelölt létrehoz egy sorsolást, majd a létrehozott linket megosztja.
@@ -24,7 +23,6 @@ A böngészőket **cookie**-k segítségével azonosítom. A [Flask](http://flas
 
 ### Konfiguráció
 A sorsolások(Flip-ek) eltárolására két opctió van, az egyik, hogy egy Python változóban tároljuk(PythonFlip, ez elveszik a program leállása után!), illetve a Redis adatbázis használata(RedisFlip). A választásra a **models.py** fájlban a "Flip" változó értékadásánál van lehetőség(utolsó sor).
-
 Ha a **Redis opció** van kiválasztva, akkor a **flippo.py** megfelelő sorát át kell írni a használt Redis adatbázis URL-jére.
 
 #### Fejlesztési lehetőségek
