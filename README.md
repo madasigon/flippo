@@ -8,7 +8,7 @@ A lehetőségeid:
 Az eredmény akkor és csak akkor válik láthatóvá, ha két különböző böngészőből meglátogatták a linket. Ha ezután egy harmadik helyről is meglátogatják a linket, akkor az illető egy hibaüzenetet kap: "This coin has already been flipped!".
 Ez a két feltétel megakadályozza azt, hogy a kijelölt fél lássa a sorsolás eredményét, mielőtt megosztja, és ezután megossza a másikkal, tehát nem lehet trükközni, ugyanis mindkét fél tudja, ha a másik trükközni próbál.
 
-A böngészőket **cookie**-k segítségével azonosítom. A [Flask](http://flask.pocoo.org/) könyvtárat használtam, amúgyis viszonylag kevés kóddal sokat lehet vele elérni. A Redis adatbázist egyszerűsége miatt választottam.
+A böngészőket **cookie**-k segítségével azonosítom. A [Flask](http://flask.pocoo.org/) könyvtárat használtam, mert viszonylag kevés kóddal sokat lehet vele elérni. A Redis adatbázist viszonylagos egyszerűsége miatt választottam.
 
 ### Követelmények a telepítéshez
  - Python 2 vagy Python 3: https://www.python.org/. 
