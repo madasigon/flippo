@@ -9,7 +9,7 @@ Az eredmény akkor és csak akkor válik láthatóvá, ha két különböző bö
 Ez a két feltétel megakadályozza azt, hogy a kijelölt fél lássa a sorsolás eredményét, mielőtt megosztja, és ezután megossza a másikkal, tehát nem lehet trükközni, ugyanis mindkét fél tudja, ha a másik trükközni próbál.
 
 ### Követelmények a telepítéshez
- - Python 2: https://www.python.org/.
+ - Python 2 vagy Python 3: https://www.python.org/.
  - Redis adatbázis, ha az van tárolónak választva: https://redis.io.
 
 ### Telepítés és futtatás
